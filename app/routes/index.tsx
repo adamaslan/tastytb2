@@ -19,15 +19,15 @@ export default function Index() {
             </div>
             <div className="relative px-4 pt-16 pb-8 sm:px-6 sm:pt-24 sm:pb-14 lg:px-8 lg:pb-20 lg:pt-32">
               <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
-                <span className="block uppercase text-yellow-500 drop-shadow-md">
-                  Indie Stack
+                <span className="block uppercase text-blue-500 drop-shadow-md">
+            Tasty Tech Bytes
                 </span>
               </h1>
               <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
                 Check the .md file for instructions on how to get this
                 project deployed.
               </p>
-              <p> MORE ARTICLES:</p>
+              <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>
               <Link
                 to="/article1"
               >
@@ -78,10 +78,15 @@ export default function Index() {
                 />
               </a>
             </div>
+            <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>  <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>
+            <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>
           </div>
         </div>
 
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
+
+Stuff We're Interesting in
+
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
               {
@@ -150,7 +155,13 @@ export default function Index() {
             ))}
           </div>
         </div>
-      </div>
+        <h1 className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl">
+        <Link
+          to="/article1"
+        >
+      Ohh Article1 yas here
+        </Link></h1>
+    </div>
     </main>
   );
 }

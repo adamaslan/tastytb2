@@ -12,8 +12,6 @@ B
 :
 
 Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
-A
-cypress.config.ts,8/d/8d051827e9946997d1242684d905277f3caef4f1
 ?
 .prettierignore,b/6/b69d8408b6c89ae66e712f0e6af68848291cfdfb
 =
@@ -26,15 +24,5 @@ E
 app/routes/logout.tsx,0/0/006ffec6c8f422dbf4b00e5c2a7b434d8dc94d20
 D
 app/routes/login.tsx,b/c/bcd338102824e525396d4a53098ce197c156646d
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 D
 app/routes/notes.tsx,5/7/57689afdc32380e415c1740be3b14d122859cb90
-G
-app/routes/article2.tsx,c/1/c16b0225023f093ec1ab662db56e6d508878892d
-G
-app/routes/article1.tsx,4/4/4432dbec586625333293c62e9d8dedd90ec46869
-D
-prisma/schema.prisma,1/8/187e4a6f168cf143dde68ce28a29ae08ce9b9578
-D
-app/routes/index.tsx,d/6/d649aa1c35a4a277e0721965caa77d26ac4b6d99
