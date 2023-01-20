@@ -23,11 +23,11 @@ export default function Index() {
             Tasty Tech Bytes
                 </span>
               </h1>
-              <p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">
-                Check the .md file for instructions on how to get this
-                project deployed.
-              </p>
-              <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>
+              {/*<p className="mx-auto mt-6 max-w-lg text-center text-xl text-white sm:max-w-3xl">*/}
+              {/*  Check the .md file for instructions on how to get this*/}
+              {/*  project deployed.*/}
+              {/*</p>*/}
+              <p className="text-center text-6xl font-extrabold tracking-tight sm:text-xl lg:text-4xl"> Always Tasty:</p>
               <Link
                 to="/article1"
               >
@@ -43,32 +43,7 @@ export default function Index() {
                 >
                 </Link>
 
-                {user ? (
 
-
-                  <Link
-                    to="/notes"
-                    className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
-                  >
-                    View Notes for {user.email}
-                  </Link>
-                ) : (
-                  <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
-                    <Link
-                      to="/join"
-                      className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
-                    >
-                      Sign up
-                    </Link>
-
-                    <Link
-                      to="/login"
-                      className="flex items-center justify-center rounded-md bg-yellow-500 px-4 py-3 font-medium text-white hover:bg-yellow-600"
-                    >
-                      Log In
-                    </Link>
-                  </div>
-                )}
               </div>
               <a href="https://remix.run">
                 <img
@@ -78,14 +53,13 @@ export default function Index() {
                 />
               </a>
             </div>
-            <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>  <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>
-            <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> MORE ARTICLES:</p>
+            <p className="text-center text-6xl font-extrabold tracking-tight sm:text-8xl lg:text-9xl"> ARTICLES Coming Soon!</p>
           </div>
         </div>
 
         <div className="mx-auto max-w-7xl py-2 px-4 sm:px-6 lg:px-8">
 
-Stuff We're Interesting in
+          <p className="text-center text-6xl font-extrabold tracking-tight sm:text-xl lg:text-4xl"> Stuff We're Interesting in </p>
 
           <div className="mt-6 flex flex-wrap justify-center gap-8">
             {[
@@ -159,8 +133,34 @@ Stuff We're Interesting in
         <Link
           to="/article1"
         >
-      Ohh Article1 yas here
+      Cute little Article  here
         </Link></h1>
+        <div>{user ? (
+
+
+          <Link
+            to="/notes"
+            className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
+          >
+            View Notes for {user.email}
+          </Link>
+        ) : (
+          <div className="space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0">
+            <Link
+              to="/join"
+              className="flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8"
+            >
+              Sign up
+            </Link>
+
+            <Link
+              to="/login"
+              className="flex items-center justify-center rounded-md bg-yellow-500 px-4 py-3 font-medium text-white hover:bg-yellow-600"
+            >
+              Log In
+            </Link>
+          </div>
+        )}</div>
     </div>
     </main>
   );
