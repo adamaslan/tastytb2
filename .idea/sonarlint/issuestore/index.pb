@@ -16,8 +16,6 @@ Dockerfile,6/6/6651ddff6eb82c840ced7c1dddee15c6e1913dd4
 .prettierignore,b/6/b69d8408b6c89ae66e712f0e6af68848291cfdfb
 =
 .dockerignore,0/5/05a721ebe3ba0754116825ed1359ff1785f4bbac
-J
-app/routes/healthcheck.tsx,1/5/15babd0685f4ba355fb8e414a5117bf236ab2c39
 C
 app/routes/join.tsx,1/e/1e476231ef1d294c730b03568f332a689b110269
 E
