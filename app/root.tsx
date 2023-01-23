@@ -11,7 +11,7 @@ import {
 
 import tailwindStylesheetUrl from "./styles/tailwind.css";
 import { getUser } from "./session.server";
-
+import Nav from "./components/Nav";
 export const links: LinksFunction = () => {
   return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
 };
@@ -36,6 +36,7 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
+      <Nav />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
