@@ -22,8 +22,6 @@ D
 app/routes/login.tsx,b/c/bcd338102824e525396d4a53098ce197c156646d
 D
 app/routes/notes.tsx,5/7/57689afdc32380e415c1740be3b14d122859cb90
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 I
 app/models/note.server.ts,d/d/dd21e2bb166146d5610e3b72ed82911470313de7
 I
@@ -32,8 +30,6 @@ G
 cypress/e2e/smoke.cy.ts,3/d/3d6096825af9907c1572a326d0586bd82e2e1ca1
 >
 prisma/seed.ts,2/4/24cfb542de583800edc8b73e246748ba49d85fba
-A
-cypress.config.ts,8/d/8d051827e9946997d1242684d905277f3caef4f1
 G
 app/routes/article1.tsx,4/4/4432dbec586625333293c62e9d8dedd90ec46869
 D
@@ -54,5 +50,14 @@ E
 app/components/Nav.js,f/2/f2074aaabf45f520d34363612e224dede185a2ae
 <
 app/root.tsx,8/1/81387e0b63b32ec9e1e4489ed96ee6cf6ed470bf
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+A
+cypress.config.ts,8/d/8d051827e9946997d1242684d905277f3caef4f1
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 D
 prisma/schema.prisma,1/8/187e4a6f168cf143dde68ce28a29ae08ce9b9578
+<
+netlify.toml,b/7/b7603b2d52a305d1420312b2b0a2086a7fee9bf7
