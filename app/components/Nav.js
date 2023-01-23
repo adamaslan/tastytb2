@@ -8,7 +8,7 @@ const Nav = () => {
   return (
     <Navbare>
       <Logo href="/">
-        Drinks Food<span> Life</span>
+        Tasty<span> Tech Bytes</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -18,7 +18,7 @@ const Nav = () => {
       <Menu isOpen={isOpen}>
 
         <MenuLink href="./subscribe">Subscribe</MenuLink>
-        <MenuLink href="./about">About</MenuLink>
+        <MenuLink href="./about" >About</MenuLink>
 
       </Menu>
     </Navbare>
