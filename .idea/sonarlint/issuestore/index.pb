@@ -46,8 +46,6 @@ D
 app/routes/about.tsx,1/6/16677f6c66dd59a423b554a1c83fd1de530534f2
 E
 app/components/Nav.js,f/2/f2074aaabf45f520d34363612e224dede185a2ae
-<
-app/root.tsx,8/1/81387e0b63b32ec9e1e4489ed96ee6cf6ed470bf
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
