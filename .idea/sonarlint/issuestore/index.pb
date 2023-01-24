@@ -1,6 +1,4 @@
 
-B
-tailwind.config.js,0/9/0918cbb76f2c44f223706cec9d31a32cd1177ce4
 8
 start.sh,9/d/9dcf658ee8180c343527e6fa4612975d22036004
 >
@@ -55,9 +53,3 @@ E
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 A
 cypress.config.ts,8/d/8d051827e9946997d1242684d905277f3caef4f1
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-D
-prisma/schema.prisma,1/8/187e4a6f168cf143dde68ce28a29ae08ce9b9578
-<
-netlify.toml,b/7/b7603b2d52a305d1420312b2b0a2086a7fee9bf7
